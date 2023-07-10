@@ -53,6 +53,7 @@ body {
     border-radius: 8px;
     background: #E55473;
 }
+
 .hot-deal {
     margin-top: 30px;
     background-color: #E554731A;
@@ -93,4 +94,45 @@ body {
 .hot-image {
     width: 218px;
     height: 420px;
+}
+
+
+
+.gellary {}
+
+.gellary-container {
+    padding: 100px;
+}
+
+.gellary-container,
+.gellary-description {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.gellary-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 7px;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+}
+
+
+.gellary-title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gellary-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
