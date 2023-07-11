@@ -13,7 +13,9 @@ body{
     font-size: 40px;
     font-weight: 800;
 }
-
+.main-section{
+    margin-top: 100px;
+}
 .banner-section{
     background: #E554731A;
 }
@@ -141,4 +143,77 @@ body{
 }
 .text-color{
     color: #E55473;
+}
+
+
+
+
+/* Instagram section styles */
+.instagram-section{
+    margin: 100px 0px;
+}
+.instagram-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.insta-img-gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.instra-section-title{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.insta-img-gallery img{
+    width: 25%;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+/* Coupon offer section styles */
+.coupon-offer-section{
+    padding-bottom: 100px;
+}
+.coupon-container{
+    width: 80%;
+    margin: 0 auto;
+    background: url('../images/Rectangle 9.png');
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border-radius: 8px;
+
+}
+.coupon-container >h2{
+    text-align: center;
+}
+.coupon-container p{
+    padding: 30px 0px 40px;
+}
+.coupon-container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coupon-container input{
+    border: none;
+    width: 600px;
+    height: 64px;
+    margin-right: 20px;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+/* Footer section styles */
+.footer-section{
+    padding: 50px 0px;
+    background: #111010;
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer-container{
+    width: 30%;
+    margin: 0 auto;
+}
+.footer-container h2{
+    color: white;
+    padding-bottom: 20px;
 }
