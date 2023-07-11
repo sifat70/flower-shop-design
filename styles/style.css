@@ -7,53 +7,47 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.banner-container {
-    background-image: url('../images/banner.png');
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    background-color: #E554731A;
-    /* padding: 40px 240px; */
-    background-position: right;
-}
-
-.banner-content {
-    /* width: 40%; */
-    /* display: flex;
-    align-items: center; */
-    padding: 150px 150px;
-}
-
-.banner-title {
+/*banner start*/
+.banner-title{
     color: #272727;
-    font-family: Lato;
-    font-size: 60px;
-    font-style: normal;
+    text-align: center;
+    font-size: 40px;
     font-weight: 800;
-    padding-bottom: 20px;
-    line-height: normal;
 }
 
-.banner-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    padding-bottom: 30px;
-    line-height: 30px;
+.banner-section{
+    background: #E554731A;
 }
-
-.btn-primary {
-    display: inline-flex;
-    padding: 15px 30px;
-    align-items: flex-start;
-    gap: 10px;
-    color: white;
-    border: none;
-    border-radius: 8px;
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 170px;
+    padding-top: 50px;
+}
+.content-area h1{
+    font-size: 56px;
+    text-align: left;
+}
+.content-area p{
+    padding: 32px 0px;
+    text-align: left;
+}
+.banner-img img{
+    max-height: 500px; 
+}
+.btn-primary{
+    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 700;
     background: #E55473;
+    color: white;
+    border-radius: 8px;
+    border: none;
 }
-
+/*banner start*/
 .hot-deal {
     margin-top: 30px;
     background-color: #E554731A;
