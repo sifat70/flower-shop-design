@@ -112,3 +112,34 @@ body{
     padding: 40px;
 }
 /* our system  end*/
+
+/* offer section start */
+.offer-section{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-top: 80px;
+}
+.offer-section-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    height: 50vh;
+}
+.offer-section-left{
+    width: 50%;
+}
+.offer-section-left h2, p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.offer-section-left button{
+    display: block;
+    margin: 0 auto;
+}
+.text-color{
+    color: #E55473;
+}
