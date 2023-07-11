@@ -145,7 +145,7 @@ body{
     color: #E55473;
 }
 
-
+/* offer section end */
 
 
 /* Instagram section styles */
@@ -169,6 +169,8 @@ body{
     margin-left: 20px;
     transition: 0.5s;
 }
+
+/* instragrap section end */
 
 /* Coupon offer section styles */
 .coupon-offer-section{
@@ -203,6 +205,8 @@ body{
     border-radius: 8px;
 }
 
+/* coupon section end */
+
 /* Footer section styles */
 .footer-section{
     padding: 50px 0px;
@@ -221,3 +225,4 @@ body{
     padding-bottom: 20px;
 }
 
+/* footer section end */
