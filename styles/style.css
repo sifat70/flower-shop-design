@@ -103,9 +103,10 @@ body {
 .about-description {
     font-size: 18px;
     margin-bottom: 30px;
+    text-align: left;
 }
 
- /* about section start  */
+/* about section start  */
 
 /* fetured start */
 .main-section {
