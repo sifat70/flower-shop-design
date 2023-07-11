@@ -1,12 +1,11 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     font-family: 'Open Sans', sans-serif;
 }
-
 /*banner start*/
 .banner-title{
     color: #272727;
@@ -47,86 +46,47 @@ body {
     border-radius: 8px;
     border: none;
 }
-/*banner start*/
-.hot-deal {
-    margin-top: 30px;
-    background-color: #E554731A;
-    margin-bottom: 50px;
-}
+/*banner end*/
 
-.hot-deal-container {
-    display: flex;
-    width: 80%;
-    height: 400px;
-    align-items: center;
-    justify-content: space-around;
+.main-section{
+    margin-top: 100px;
+}
+.fetured-flower{
+    width: 85%;
     margin: auto;
 }
-
-.hot-text {
+.fetured-text h2{
     text-align: center;
 }
-
-.hot-title {
-    /* padding-bottom: 10px; */
-    color: #272727;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.hot-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
-    padding: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.hot-image {
-    width: 218px;
-    height: 420px;
-}
-
-
-
-.gellary {}
-
-.gellary-container {
-    padding: 100px;
-}
-
-.gellary-container,
-.gellary-description {
+.fetured-text p{
     text-align: center;
-    padding-bottom: 40px;
+    padding: 30px 0px;
 }
-
-.gellary-area {
+.fetured-image{
     display: flex;
-    align-items: center;
     justify-content: space-around;
+}
+.fetured-box{
+    width: 350px;
+}
+.fetured-box a{
     text-align: center;
-    gap: 7px;
-    width: 1440px;
-    height: 449px;
-    flex-shrink: 0;
-}
-
-
-.gellary-title {
-    font-size: 30px;
-    font-style: normal;
+    display: block;
+    color: #272727;
+    margin-top: 32px;
     font-weight: 700;
-    line-height: normal;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
-
-.gellary-description {
-    color: #737272;
-    font-size: 25px;
-    font-weight: 500;
+.fetured-round-box{
+    border-radius: 200px 200px 0px 0px;
+    padding: 30px 30px 0px 30px;
+    display: flex;
+    vertical-align: center;
+    margin-right: 20px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 370px;
+}
+.fetured-round-box img{
+    width: 90%;
+    height: 299px;
+    margin-top: 70px;
 }
