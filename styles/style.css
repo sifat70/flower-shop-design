@@ -27,6 +27,7 @@ body{
     align-items: center;
     gap: 170px;
     padding-top: 50px;
+    height: 100vh;
 }
 .content-area h1{
     font-size: 56px;
