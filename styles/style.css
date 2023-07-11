@@ -209,6 +209,9 @@ body{
     background: #111010;
     color: rgba(255, 255, 255, 0.90);
 }
+.footer-container >h2{
+    text-align: center;
+}
 .footer-container{
     width: 30%;
     margin: 0 auto;
@@ -217,3 +220,4 @@ body{
     color: white;
     padding-bottom: 20px;
 }
+
